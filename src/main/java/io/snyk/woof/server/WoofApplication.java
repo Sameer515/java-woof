@@ -7,7 +7,7 @@ import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import io.snyk.woof.app.ZipHandler;
 import io.snyk.woof.cli.CliUnzip;
-
+//
 public class WoofApplication extends Application<WoofConfig> {
     public static void main(String[] args) throws Exception {
         new WoofApplication().run(args);
